@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'chat',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +71,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'love_instant_messaging.wsgi.application'
+ASGI_APPLICATION = "love_instant_messaging.asgi.application" # added for instant messaging
 
 
 # Database
